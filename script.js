@@ -1,0 +1,10 @@
+const searchInput = document.getElementById("searchInput");
+const products = document.querySelectorAll(".product-card");
+
+searchInput.addEventListener("keyup", () => {
+  const value = searchInput.value.toLowerCase();
+  products.forEach(product => {
+    const name = product.querySelector(".product-name").textContent.toLowerCase();
+    product.style.display = name.includes(value) ? "block" : "none";
+  });
+});
