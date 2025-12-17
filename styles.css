@@ -34,9 +34,9 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
+.logo img {
+  height: 45px;
+  width: auto;
 }
 
 .nav a {
@@ -59,8 +59,8 @@ body {
   font-size: 1.2rem;
 }
 
-/* HERO */
-.hero-logo {
+/* BANNER DORADO */
+.hero {
   background: linear-gradient(135deg, #b8894d, #e0b36d);
   height: 360px;
   display: flex;
@@ -68,6 +68,12 @@ body {
   align-items: center;
 }
 
+.hero img {
+  max-width: 420px;
+  width: 90%;
+  height: auto;
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.35));
+}
 
 /* PRODUCTS */
 .products-section {
