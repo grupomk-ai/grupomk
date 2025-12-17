@@ -60,11 +60,14 @@ body {
 }
 
 /* HERO */
-.hero {
-  background: var(--gris);
-  text-align: center;
-  padding: 50px 20px;
+.hero-logo {
+  background: linear-gradient(135deg, #b8894d, #e0b36d);
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 /* PRODUCTS */
 .products-section {
