@@ -30,9 +30,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 25px;
-  border-bottom: 1px solid #ddd;
+  padding: 18px 30px;
+  background: linear-gradient(135deg, #b8894d, #e0b36d);
 }
+
 
 .logo img {
   height: 45px;
@@ -43,7 +44,9 @@ body {
   margin: 0 10px;
   text-decoration: none;
   color: var(--negro);
+  font-weight: bold;
 }
+
 
 .icons {
   display: flex;
@@ -163,4 +166,7 @@ body {
   text-align: center;
   margin-top: 30px;
   font-size: 0.9rem;
+}
+.icon {
+  color: var(--negro);
 }
